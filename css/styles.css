@@ -1,0 +1,113 @@
+/**
+Hoja de estilos personalizados para el proyecto
+
+Julio Alan Vidaurre 
+alan.vidaurre@gmail.com
+**/
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5200;
+    background-color:#fff;
+    width: 100%;
+    vertical-align: middle;
+}
+
+nav a {
+    top:2px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: azure;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    height: 30rem;
+}
+
+.principal {
+   position: relative;
+   display: block;
+   top: 20rem;
+   padding: 5px;
+   font-weight: bold;
+}
+
+.principa.logo {
+    position: relative;
+    display: block;
+    height: auto;
+}
+
+.imagen {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 75rem;
+    filter: opacity(0.6);
+
+}
+
+.logo {
+    display: block;
+    position: relative;
+    width: 400px;
+    top: 90px;
+}
+
+.imagenUbicacion {
+    padding: 10px;
+    left: 2rem;
+    border-radius: 10px;
+    filter: blur(4px) grayscale(90%);
+
+}
+
+.section.inicio {
+    background-image: url("../images/titulo.jpg");
+    background-size: 2000px 600px;
+    background-repeat: repeat;
+
+    height: 75rem;
+}
+
+.section.servicios {
+    height: 75rem;
+}
+
+.section.ubicacion {
+    height: 75rem;
+}
+
+.menuBottom {
+    position: relative;
+    display: block;
+    top: 20px;
+}
+
+.menuBottom ul {
+    list-style-type: none;
+}
+
+.menuBottom ul li {
+    height: 10px;
+}
+
+.menuBottom ul li input{
+    border-style: none;
+    color: #fff;   
+}
+
+.menuBottom ul li input:hover{
+    color: #3C5F61; 
+}
+
+.contactoFoot {
+    position: relative;
+    display: inline-block;
+}
