@@ -60,6 +60,26 @@ footer {
     top: 90px;
 }
 
+.logo2 {
+    display: block;
+    position: relative;
+    width: 400px;
+    top: 90px;
+    border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #A1A1A1;
+}
+
+.servCalendario {
+width: 25rem;
+}
+
+.servCalendario:hover {
+    transform:scale(1.3);
+    -webkit-transform:scale(1.3);
+    -o-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+}
+
 .imagenUbicacion {
     padding: 10px;
     left: 2rem;
@@ -110,4 +130,28 @@ footer {
 .contactoFoot {
     position: relative;
     display: inline-block;
+}
+
+@keyframes zoomServicio {
+    10% { transform: scale(1.1);}
+    50% { transform: scale(1.3);}
+    100% { transform: scale(1.5);}
+}
+
+@-webkit-keyframes zoomServicio {
+    10% { -webkit-transform: scale(1.1);}
+    50% { -webkit-transform: scale(1.3);}
+    100% { -webkit-transform: scale(1.5);}
+}
+
+@-o-keyframes zoomServicio {
+    10% { -o-transform: scale(1.1);}
+    50% { -o-transform: scale(1.3);}
+    100% { -o-transform: scale(1.5);}
+}
+
+@-moz-keyframes zoomServicio {
+    10% { -moz-transform: scale(1.1);}
+    50% { -moz-transform: scale(1.3);}
+    100% { -moz-transform: scale(1.5);}
 }
